@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "next dev & npx next-video sync -w",
     "start": "next start"
   },
   "dependencies": {
@@ -12,5 +12,10 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.5",
+    "@types/react": "18.2.46",
+    "typescript": "5.3.3"
   }
 }

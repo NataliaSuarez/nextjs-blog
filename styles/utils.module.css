@@ -1,0 +1,27 @@
+.title {
+    font-weight: 200;
+    font-size: 3rem;
+    color: var(--white);
+    animation: display-opacity 2.5s ease-in-out;
+    width: min-content;
+}
+
+.title,
+.description {
+    /* text-align: center; */
+}
+
+.description {
+    /* line-height: 1.5;
+    font-size: 1.5rem; */
+}
+
+@keyframes display-opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
