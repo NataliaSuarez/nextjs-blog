@@ -17,7 +17,7 @@ export default function AboutMe() {
         </h3>
         <div className={styles.buttonContainer}>
           <a
-            href="/cv.pdf"
+            href="/natsuarez-resume.pdf"
             download="Natalia Suarez RESUME.pdf"
             className={styles.button}
           >
