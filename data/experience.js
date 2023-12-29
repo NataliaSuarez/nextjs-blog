@@ -23,7 +23,7 @@ export const experience = [
       "Push notifications",
     ],
     data:
-      "",
+      "I've participated in the development of this application from the definition of new functionalities, roadmap creation, sprint planning, backend and frontend development, deploy and deployment to stores. I also contributed to team building, UX/UI improvements and leadership at a technical level. My role was important mainly because of the general knowledge of the product.",
   },
   {
     id: "15",

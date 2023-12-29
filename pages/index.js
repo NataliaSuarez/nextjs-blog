@@ -30,7 +30,7 @@ export default function Home() {
 
         <div className={[styles.card, styles.gridC].join(" ")}>
           <Link href="/projects">
-            <p>My Projects &rarr;</p>
+            <p>Projects &rarr;</p>
           </Link>
         </div>
 

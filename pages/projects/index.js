@@ -11,7 +11,7 @@ export default function MyProjects() {
         <div className={styles.scrollButton}>&#10597;</div>
       </Link>
       <Layout customStyles={styles.layout}>
-        <h1 className={utilStyles.title}>My Projects</h1>
+        <h1 className={utilStyles.title}>Projects</h1>
       </Layout>
       <div id="all" className={styles.section}>
         <Layout>

@@ -81,7 +81,7 @@
         border-color 0.3s ease-in,
         background 0.3s ease-in-out;
     background: var(--soft-gray);
-    height: 400px;
+    height: 520px;
 }
 
 .project {
