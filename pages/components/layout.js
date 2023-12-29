@@ -9,7 +9,10 @@ export default function Layout({ children, customStyles }) {
       <Head>
         <title>Nat Developer</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Lorem ipsum" />
+        <meta
+          name="description"
+          content="Software Developer with 5 years of experience in the IT world. I've dedicated my career to researching and programming in different technologies. My experience in different projects has allowed me to form agile teams with a leadership role."
+        />
       </Head>
       <main>{children}</main>
       <footer>
