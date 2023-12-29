@@ -54,3 +54,32 @@
 .section {
     animation: display-opacity 2.8s cubic-bezier(0.72, -0.28, 1, 0.82);
 }
+.description {
+    font-weight: 200;
+    width: 800px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list div {
+    text-decoration: underline;
+}
+
+.list p {
+    font-size: 1rem;
+    width: 600px;
+}
+
+@media (max-width: 600px) {
+    .description {
+        font-size: 1rem;
+        color: var(--black);
+        width: fit-content;
+        padding: 2px 24px 2px 0;
+    }
+    .list p {
+        width: fit-content;
+    }
+}

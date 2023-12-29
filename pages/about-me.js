@@ -1,15 +1,14 @@
 import Layout from "./components/layout";
-import utilStyles from "../styles/utils.module.css";
 import styles from "../styles/AboutMe.module.css";
 
 export default function AboutMe() {
   return (
     <div className={styles.container}>
-      <video className={styles.video} autoPlay muted loop>
+      <video className={styles.video} autoPlay muted loop playsInline>
         <source src="/videos/desktop.mp4" />
       </video>
       <Layout customStyles={styles.layout}>
-        <h1 className={[utilStyles.title, styles.title].join(" ")}>About Me</h1>
+        <h1 className={styles.title}>About Me</h1>
         <h3>
           Software Developer with 5 years of experience in the IT world. I've
           dedicated my career to researching and programming in different

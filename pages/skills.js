@@ -15,9 +15,28 @@ export default function Skills() {
       <div id="capabilities" className={styles.section}>
         <Layout>
           <h3>Skills & Capabilities</h3>
-          <h5>Lorem ipsum</h5>
-          <ul>
-            <li>Leadership Management</li>
+          <h5 className={styles.description}>
+            These are some of the skills and abilities in which I excel as a
+            programmer. In this profession the most important thing is to
+            continue learning and improving, that is why I seek to stay updated
+            with the latest technologies and trends in the world of programming.
+            I hope to have the opportunity to showcase my experience and work on
+            challenging projects in the future.
+          </h5>
+          <ul className={styles.list}>
+            <li>
+              <div>Leadership Management</div>
+              <p>
+                As a leader and manager, I'm capable of motivating and guiding a
+                team members towards achieving common objectives. <br></br>I
+                seek to communicate effectively, creating a positive environment
+                and encouraging collaboration. I use a logical and analytical
+                approach to evaluate all options before reaching a conclusion.{" "}
+                <br></br>
+                When faced with conflicts, I believe that the best solution is
+                to face them, allowing the team to continue growing.
+              </p>
+            </li>
             <li>Client communication</li>
             <li>Scrum Master</li>
             <li>Product Manager Tools</li>
@@ -30,7 +49,7 @@ export default function Skills() {
           </ul>
         </Layout>
       </div>
-      <div id="challenges" className={styles.section}>
+      {/* <div id="challenges" className={styles.section}>
         <Layout>
           <h3>Challenges</h3>
           <h5>Lorem ipsum</h5>
@@ -47,7 +66,7 @@ export default function Skills() {
             <li>Product Delivery</li>
           </ul>
         </Layout>
-      </div>
+      </div> */}
     </div>
   );
 }
