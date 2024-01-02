@@ -7,11 +7,21 @@ export default function Layout({ children, customStyles }) {
   return (
     <div className={[styles.container, customStyles].join(" ")}>
       <Head>
-        <title>Nat Developer</title>
+        <title>Nat Developer | Portfolio & Blog</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Software Developer with 5 years of experience in the IT world. I've dedicated my career to researching and programming in different technologies. My experience in different projects has allowed me to form agile teams with a leadership role."
+          content="Software Developer with 5 years of experience in the IT world. ``I've dedicated my career to researching and programming in different technologies. My experience in different projects has allowed me to form agile teams with a leadership role.``"
+          key="desc"
+        />
+        <meta property="og:title" content="Nat Developer | Portfolio & Blog" />
+        <meta
+          property="og:description"
+          content="Software Developer with 5 years of experience in the IT world. ``I've dedicated my career to researching and programming in different technologies. My experience in different projects has allowed me to form agile teams with a leadership role.``"
+        />
+        <meta
+          property="og:image"
+          content="https://nextjs-blog-xi-black.vercel.app/presentation.png"
         />
       </Head>
       <main>{children}</main>
